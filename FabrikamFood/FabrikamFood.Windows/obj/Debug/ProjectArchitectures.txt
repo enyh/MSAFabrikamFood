@@ -1,0 +1,2 @@
+C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood.Windows\FabrikamFood.Windows.csproj;neutral
+C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood\FabrikamFood.csproj;neutral

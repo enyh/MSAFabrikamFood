@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FabrikamFood;assembly=FabrikamFood"
+             x:Class="FabrikamFood.Menu"
+             Title="Menu">
+  
+  <StackLayout BackgroundColor="White">
+    <Button x:Name="BreakfastB" Text="Breakfast" TextColor="White" BackgroundColor="Blue" Clicked="ViewMenu_Clicked" />
+
+    <ListView x:Name="Breakfast" HasUnevenRows="True">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*" />
+                <ColumnDefinition Width="50*" />
+                <ColumnDefinition Width="50*" />
+              </Grid.ColumnDefinitions>
+              <Label Grid.Column="0" Text="{Binding Name}" />
+              <Label Grid.Column="2" Text="{Binding Price}" />
+            </Grid>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+    <Button Text="Lunch" TextColor="White" BackgroundColor="Blue" Clicked="lunch_Clicked" />
+    <ListView x:Name="Lunch" HasUnevenRows="True">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*" />
+                <ColumnDefinition Width="50*" />
+                <ColumnDefinition Width="50*" />
+              </Grid.ColumnDefinitions>
+              <Label Grid.Column="0" Text="{Binding Name}" />
+              <Label Grid.Column="2" Text="{Binding Price}" />
+            </Grid>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+      <Button Text="Dinner" TextColor="White" BackgroundColor="Blue" Clicked="dinner_Clicked" />
+    <ListView x:Name="Dinner" HasUnevenRows="True">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*" />
+                <ColumnDefinition Width="50*" />
+                <ColumnDefinition Width="50*" />
+              </Grid.ColumnDefinitions>
+              <Label Grid.Column="0" Text="{Binding Name}" />
+              <Label Grid.Column="2" Text="{Binding Price}" />
+            </Grid>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+</ContentPage>

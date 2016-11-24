@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FabrikamFood.Reservations"
+             Title="Book">
+
+  <StackLayout BackgroundColor="White">
+    <Button x:Name="ShowRes" Text="Current Reservations" TextColor="White" BackgroundColor="Blue" Clicked="show_reservations" />
+    
+    <ListView x:Name="ReservationsList" HasUnevenRows="True">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*" />
+                <ColumnDefinition Width="50*" />
+                <ColumnDefinition Width="50*" />
+              </Grid.ColumnDefinitions>
+              <Label Grid.Column="0" Text="{Binding Name}" />
+              <Label Grid.Column="2" Text="{Binding Time}" />
+            </Grid>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+
+    <Label Text="Select Time Here:" />
+    <TimePicker  x:Name="picker" />
+    <Entry Placeholder="Enter Name Here" x:Name="username" />
+    <Button x:Name="CreateRes" IsEnabled="false" Text="Create Reservations" TextColor="White" BackgroundColor="Blue" Clicked="create_reservations" />
+    <Entry Placeholder="Enter Name to Update" x:Name="update" />
+    <Button x:Name="UpdateRes" IsEnabled="false" Text="Update Reservations" TextColor="White" BackgroundColor="Blue" Clicked="update_reservations" />
+    <Entry Placeholder="Enter Name to Delete" x:Name="delete" />
+    <Button x:Name="DeleteRes" IsEnabled="false" Text="Delete Reservations" TextColor="White" BackgroundColor="Blue" Clicked="delete_reservations" />
+    
+  </StackLayout>
+</ContentPage>

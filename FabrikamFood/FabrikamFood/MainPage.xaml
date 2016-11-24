@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FabrikamFood;assembly=FabrikamFood"
+             x:Class="FabrikamFood.MainPage"
+             Title="Home">
+
+
+    <StackLayout BackgroundColor="White">
+      <Label Text="Welcome to Fabrikam Food!" VerticalOptions="Center" HorizontalOptions="Center" />
+      
+      <Image x:Name="manual" Aspect="AspectFit" Source="icon2.jpg" />
+      
+      <Label Text="Calculate your distance to Abrikam Food:" /> 
+      <Entry Placeholder="Enter Address Here" x:Name="address" />
+      <Button Text="Calculate Distance" TextColor="White" BackgroundColor="Blue" Clicked="search_clicked" />
+      <Label Text="Fabrikam Food is currently located at 20 Symonds Street, Auckland, 1010" VerticalOptions="Center" HorizontalOptions="Center" /> 
+    </StackLayout>
+</ContentPage>
