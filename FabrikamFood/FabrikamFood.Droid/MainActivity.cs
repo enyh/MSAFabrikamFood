@@ -23,11 +23,9 @@ namespace FabrikamFood.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-            // Initialize the authenticator before loading the app.
             App.Init((IAuthenticate)this);
             LoadApplication(new App());
         }
-        // Define a authenticated user.
         private MobileServiceUser user;
 
         public async Task<bool> Authenticate()
@@ -36,7 +34,6 @@ namespace FabrikamFood.Droid
             var message = string.Empty;
             try
             {
-                // Sign in with Facebook login using a server-managed flow.
                 user = await AzureManager.AzureManagerInstance.AzureClient.LoginAsync(this,
          MobileServiceAuthenticationProvider.Facebook);
                 if (user != null)
@@ -50,8 +47,6 @@ namespace FabrikamFood.Droid
             {
                 message = ex.Message;
             }
-
-            // Display the success or failure message.
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.SetMessage(message);
             builder.SetTitle("Sign-in result");

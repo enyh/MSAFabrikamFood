@@ -33,6 +33,7 @@ C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\Fa
 C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood\bin\Debug\Mono.Android.dll
 C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood\bin\Debug\Mono.Android.xml
 C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood\obj\Debug\FabrikamFood.Reservations.xaml.g.cs
-C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood\obj\Debug\FabrikamFood.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood\obj\Debug\FabrikamFood.dll.mdb
+C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood\bin\Debug\FabrikamFood.dll.mdb
 C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood\obj\Debug\FabrikamFood.dll.mdb
 C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood\bin\Debug\FabrikamFood.dll.mdb

@@ -49,10 +49,9 @@ namespace FabrikamFood
             {
                 ReservationsList res = new ReservationsList();
                 res.Name = username.Text;
-                // TIME HERE
                 res.Time = selectedTime;
                 await AzureManager.AzureManagerInstance.AddResItems(res);
-                await DisplayAlert("Success", $"successfullyy created {res.Name}'s reservation", "OK");
+                await DisplayAlert("Success", $"Successfully created {res.Name}'s reservation", "OK");
                 LoadReservations();
             };
         }
@@ -65,10 +64,9 @@ namespace FabrikamFood
                 if (user.Count > 0)
                 {
                     var res = user[0];
-                    // TIME HERE
                     res.Time = selectedTime;
                     await AzureManager.AzureManagerInstance.UpdateReservation(res);
-                    await DisplayAlert("Success", $"successfullyy updated {res.Name}'s reservation", "OK");
+                    await DisplayAlert("Success", $"Successfully updated {res.Name}'s reservation", "OK");
                     LoadReservations();
                 }
                 else
@@ -87,8 +85,8 @@ namespace FabrikamFood
                 if (user.Count > 0)
                 {
                     var res = user[0];
-                    await AzureManager.AzureManagerInstance.CancelReservation(res); // Deletes user from DB
-                    await DisplayAlert("Success", $"successfullyy removed your reservation MR: {res.Name}", "OK");
+                    await AzureManager.AzureManagerInstance.CancelReservation(res);
+                    await DisplayAlert("Success", $"Successfully removed your reservation for {res.Name}", "OK");
                     LoadReservations();
                 }
                 else

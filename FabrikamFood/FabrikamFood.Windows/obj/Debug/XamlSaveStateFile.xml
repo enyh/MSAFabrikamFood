@@ -1,7 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\user\documents\visual studio 2015\projects\fabrikamfood\fabrikamfood\fabrikamfood.windows\obj\debug\intermediatexaml\fabrikamfood.windows.exe" HashGuid="a828fced-d5e1-1616-c97e-4ab74c0b6e55" />
-    <ReferenceAssembly PathName="c:\users\user\documents\visual studio 2015\projects\fabrikamfood\fabrikamfood\fabrikamfood\bin\debug\fabrikamfood.dll" HashGuid="16f6d4a8-b2e7-546a-1971-0f04d1ab24e0" />
+    <LocalAssembly PathName="c:\users\user\documents\visual studio 2015\projects\fabrikamfood\fabrikamfood\fabrikamfood.windows\obj\debug\intermediatexaml\fabrikamfood.windows.exe" HashGuid="6a432de3-1b53-4457-fff6-50242ddb3430" />
+    <ReferenceAssembly PathName="c:\users\user\documents\visual studio 2015\projects\fabrikamfood\fabrikamfood\fabrikamfood\bin\debug\fabrikamfood.dll" HashGuid="e167b355-d3c7-3100-14fa-4bb05bea16d9" />
     <ReferenceAssembly PathName="c:\users\user\documents\visual studio 2015\projects\fabrikamfood\packages\microsoft.azure.mobile.client.3.0.3\lib\netcore45\microsoft.windowsazure.mobile.dll" HashGuid="b1dcaa97-cc41-a02d-c94f-f367893aa987" />
     <ReferenceAssembly PathName="c:\users\user\documents\visual studio 2015\projects\fabrikamfood\packages\microsoft.azure.mobile.client.3.0.3\lib\netcore45\microsoft.windowsazure.mobile.ext.dll" HashGuid="ca4a9b71-1bae-b7c2-7659-e118514011db" />
     <ReferenceAssembly PathName="c:\users\user\documents\visual studio 2015\projects\fabrikamfood\packages\newtonsoft.json.8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\newtonsoft.json.dll" HashGuid="74af0f9d-4f96-68dd-0977-2bb867adf196" />

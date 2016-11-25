@@ -50,7 +50,6 @@ namespace FabrikamFood
             }
         }
 
-        // Track whether the user has authenticated.
         bool authenticated = false;
     }
 }

@@ -54,7 +54,6 @@ C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\Fa
 C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood.Droid\bin\Debug\Plugin.Settings.dll
 C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood.Droid\bin\Debug\Plugin.Settings.xml
 C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood.Droid\bin\Debug\Plugin.Settings.Abstractions.xml
-C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood.Droid\obj\Debug\res\drawable\splashscreenimage2.png
 C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood.Droid\obj\Debug\res\drawable\food.jpg
 C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood.Droid\obj\Debug\res\drawable\icon.png
 C:\Users\User\documents\visual studio 2015\Projects\FabrikamFood\FabrikamFood\FabrikamFood.Droid\obj\Debug\res\drawable\icon2.jpg

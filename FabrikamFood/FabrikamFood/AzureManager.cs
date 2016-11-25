@@ -79,25 +79,21 @@ namespace FabrikamFood
             return await this.dinnerMenu.ToListAsync();
         }
 
-        // POST
         public async Task AddResItems(ReservationsList res)
         {
             await this.resMenu.InsertAsync(res);
         }
 
-        // GET //< get the other 2 methods
         public async Task<List<ReservationsList>> GetResItems()
         {
             return await this.resMenu.ToListAsync();
         }
 
-        // Delete placed order - remove order from database with matching ID
         public async Task CancelReservation(ReservationsList res)
         {
             await this.resMenu.DeleteAsync(res);
         }
 
-        // PUT
         public async Task UpdateReservation(ReservationsList res)
         {
             await this.resMenu.UpdateAsync(res);
